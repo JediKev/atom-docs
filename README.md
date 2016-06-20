@@ -20,3 +20,16 @@ $ git --version
   git version 2.5.4 (Apple Git-61)
 ```
 If you get a result then head to the next step.  If you get an error or nothing happens then it isn't installed and you can head to the [Git Getting-Started Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download/install Git.
+
+#### 4. Set up .gitconfig
+Atom uses git's config file to get your GitHub info so it can add, commit and push your files to GitHub.  So once Git is working open your Terminal and type:
+```
+$ atom ~/.gitconfig
+```
+This should open a file in Atom called `.gitconfig`.  Within this file add the following to the bottom:
+```
+[user]
+        name = UserName
+        email = example@example.com
+```
+Replacing `UserName` with your GitHub Username and `example@example.com` with your GitHub email address. If this stuff already exists just make sure it matches your GitHub info.
