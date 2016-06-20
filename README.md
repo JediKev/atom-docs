@@ -1,4 +1,4 @@
-# :computer: reStructured Docs
+# :computer: reStructured Docs Setup
 
 ### Description
 A Mac guide for setting up your environment for writing and publishing reStructuredText documentation to GitHub easily. Here you will be setting up Git, creating and connecting a GitHub account, installing Atom editor and installing Git-Plus package for Git commands without terminal.
