@@ -22,7 +22,7 @@ $ git --version
 If you get a result then head to the next step.  If you get an error or nothing happens then it isn't installed and you can head to the [Git Getting-Started Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download/install Git.
 
 #### 4. Set up .gitconfig
-Atom uses git's config file to get your GitHub info so it can add, commit and push your files to GitHub.  So once Git is working open your Terminal and type:
+The Git-Plus package uses git's config file to get your GitHub info so it can add, commit and push your files to GitHub.  So once Git is working open your Terminal and type:
 ```
 $ atom ~/.gitconfig
 ```
@@ -33,3 +33,6 @@ This should open a file in Atom called `.gitconfig`.  Within this file add the f
         email = example@example.com
 ```
 Replacing `UserName` with your GitHub Username and `example@example.com` with your GitHub email address. If this stuff already exists just make sure it matches your GitHub info.
+
+#### 5. Install Git-Plus package
+You're almost there!  The last step is to install the Git-Plus package so that you can do everything git from Atom itself.  HOW COOL IS THAT? :sunglasses:  So open Atom and in the top menu bar go to `Atom > Preferences`.  A new tab should open with a Settings page.  Here you can click the Install button and in the text field type `git-plus`.  Press the `Package` button on the right and the first result should be by the author `akonwi`, on this package click the blue install button and the package should install.  Once finished you can close that tab, open a new blank tab and press <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>H</kbd>.  If this doesn't pull up a command window at the top then the package didn't install properly and you should uninstall and reinstall.
