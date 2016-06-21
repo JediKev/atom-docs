@@ -36,3 +36,6 @@ Replacing `UserName` with your GitHub Username and `example@example.com` with yo
 
 #### 5. Install Git-Plus package
 You're almost there!  The last step is to install the Git-Plus package so that you can do everything git from Atom itself.  HOW COOL IS THAT? :sunglasses:  So open Atom and in the top menu bar go to `Atom > Preferences`.  A new tab should open with a Settings page.  Here you can click the Install button and in the text field type `git-plus`.  Press the `Package` button on the right and the first result should be by the author `akonwi`, on this package click the blue install button and the package should install.  Once finished you can close that tab, open a new blank tab and press <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>H</kbd>.  If this doesn't pull up a command window at the top then the package didn't install properly and you should uninstall and reinstall.
+
+### What's next?
+Head over to the [next guide](https://github.com/JediKev/reStructured-docs) where I'll show you how to use all of these things together to make your documentation workflow easier and faster!
